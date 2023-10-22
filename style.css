@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     margin: 0;
     font-family: Roboto,sans-serif;
@@ -7,7 +7,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 250px;
+    padding: 0 200px;
     background: #1F2937;
 }
 .header-logo{
@@ -27,12 +27,11 @@ body{
 }
 .section-one{
     display: flex;
-    padding: 125px 250px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
+    padding: 125px 200px;
     background: #1F2937;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .section-one .container{
     display: flex;
@@ -58,13 +57,18 @@ body{
     padding: 8px 30px;
     border-radius: 8px;
     border: none;
+    background: #3882F6;
 }
 .section-one .container a{
     text-decoration: none;
+    color: #F9FAf8;
+    font-weight: 400;
+    font-size: 16px;
 }
 .section-one img{
-    height: auto;
-    width: 400px;
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
     border-radius: 8px;
 }
 .section-two{
@@ -73,28 +77,100 @@ body{
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding: 40px 250px;
+    padding: 50px 200px 100px 200px;
 }
-.main-h1{
+.section-two .main-h1{
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 32px;
     color: #1F2937;
 }
-.conteners{
+.section-two .containers{
     display: flex;
     flex-direction: row;
     gap: 60px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .section-two p{
     width: 150px;
+    margin: 0;
+    padding: 0 28px;
     text-align: center;
+}
+.section-two img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.section-three{
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+.section-three .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    margin: 0;
+}
+.section-three .quote-signature{
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 20px;
+}
+.section-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+}
+.section-four .containers{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 40px 100px;
+    border-radius: 8px;
+    gap: 150px;
+}
+.section-four .containers .container .main-h1{
+    font-weight: 900;
+}
+.section-four .containers .container p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    min-width: 200px;
+}
+.section-four .containers button{
+    background: none;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 6px 32px;
+}
+.section-four .containers a{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+}
+
+.footer-main{
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+.footer-main p{
+    color: white;
+    font-weight: 100;
     margin: 0;
     padding: 0;
 }
-.section-two img{
-    width: 150px;
-    border-radius: 8px;
-}
-
