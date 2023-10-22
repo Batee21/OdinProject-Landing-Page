@@ -6,14 +6,15 @@ body{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 200px;
-    background: #1F2937;
+    justify-content: center;
+    padding: 30px 200px 0px 200px;
+    background: #845EC2;
 }
 .header-logo{
     font-size: 24px;
-    color: #F9FAf8;
+    color: #e2cdfc;
     font-weight: 900;
+    margin-right: 350px;
 }
 .main-nav{
     display: flex;
@@ -23,14 +24,16 @@ body{
 }
 .main-nav a{
     text-decoration: none;
-    color: #E5E7EB;
+    color: #e2cdfc;
+    font-size: 20px;
 }
 .section-one{
     display: flex;
-    padding: 125px 200px;
-    background: #1F2937;
-    justify-content: space-between;
-    gap: 20px;
+    padding: 40px 200px 80px 200px;
+    background: #845EC2;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
     flex-wrap: wrap;
 }
 .section-one .container{
@@ -42,26 +45,26 @@ body{
 .section-one .container span{
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAf8;
+    color: #e2cdfc;
     width: 350px;
 }
 .section-one .container p{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e2cdfc;
     width: 450px;
     padding: 0;
     margin: 0;
 }
 .section-one .container button{
     font-family: Roboto, sans-serif;
-    padding: 8px 30px;
+    padding: 12px 36px;
     border-radius: 8px;
     border: none;
-    background: #3882F6;
+    background: #563594;
 }
 .section-one .container a{
     text-decoration: none;
-    color: #F9FAf8;
+    color: #e2cdfc;
     font-weight: 400;
     font-size: 16px;
 }
@@ -77,13 +80,14 @@ body{
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding: 50px 200px 100px 200px;
+    padding: 50px 200px 60px 200px;
+    background: #e2cdfc;
 }
 .section-two .main-h1{
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 500;
     margin-bottom: 32px;
-    color: #1F2937;
+    color: #845EC2;
 }
 .section-two .containers{
     display: flex;
@@ -95,82 +99,95 @@ body{
 .section-two p{
     width: 150px;
     margin: 0;
-    padding: 0 28px;
+    margin-top: 10px;
+    padding: 0;
     text-align: center;
+    font-weight: 300;
+    color: #845EC2;
+    font-size: 16px;
 }
 .section-two img{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     border-radius: 8px;
 }
 .section-three{
-    background: #E5E7EB;
+    background: #f1f1f1;
     display: flex;
     flex-direction: column;
-    padding: 100px 300px;
+    padding: 60px 200px;
 }
 .section-three .quote{
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
-    font-weight: 200;
-    color: #1F2937;
+    font-weight: 300;
     margin: 0;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #845EC2;
 }
 .section-three .quote-signature{
     text-align: right;
-    margin-right: 16px;
-    margin-top: 0;
-    font-weight: 900;
+    margin-right: 180px;
+    margin-top: 10px;
+    font-weight: 700;
     font-size: 20px;
+    color: #845EC2;
 }
 .section-four{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 200px;
+    padding: 80px 200px;
+    background: #e2cdfc;
 }
 .section-four .containers{
-    background-color: #3882F6;
+    background-color: #563594;
     display: flex;
     align-items: center;
-    padding: 40px 100px;
+    padding: 40px 80px;
     border-radius: 8px;
-    gap: 150px;
+    gap: 50px;
 }
 .section-four .containers .container .main-h1{
     font-weight: 900;
+    font-size: 24px;
 }
 .section-four .containers .container p{
     margin: 0;
     padding: 0;
-    color: white;
+    color: #e2cdfc;
     font-size: 18px;
     min-width: 200px;
+    width: 300px;
+    font-weight: 100;
 }
 .section-four .containers button{
     background: none;
-    border-color: white;
+    border-color: #e2cdfc;
     border-style: solid;
     border-radius: 8px;
     padding: 6px 32px;
 }
 .section-four .containers a{
     text-decoration: none;
-    color: white;
+    color: #e2cdfc;
     font-family: Roboto,sans-serif;
     font-weight: 500;
 }
 
 .footer-main{
-    background: #1F2937;
+    background: #845EC2;
     display: flex;
     justify-content: center;
-    padding: 32px;
+    padding: 20px;
 }
 .footer-main p{
     color: white;
     font-weight: 100;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
